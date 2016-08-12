@@ -20,7 +20,7 @@ public class Student {
     private String group;
     private String courses;
     private static Student [] st = new Student[10];
-    public static int size = 0;
+    private static int size = 0;
 
     public Student() {
         this.name = "Unknown";
